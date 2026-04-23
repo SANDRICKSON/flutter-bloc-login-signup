@@ -1,4 +1,6 @@
 import 'dart:ui';
+import 'package:bloc_login_register_flutter/screens/auth/sign_in_screen.dart';
+import 'package:bloc_login_register_flutter/screens/auth/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatefulWidget {
@@ -107,7 +109,8 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                         child: TabBarView(
                           controller: tabController,
                           children: [
-
+                            SignUpScreen(),
+                            SignInScreen()
                           ],
                         ),
                       )
