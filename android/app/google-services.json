@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240540781672",
+    "project_id": "bloc-login-regis",
+    "storage_bucket": "bloc-login-regis.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240540781672:android:926c3017747ef72a7f7fdd",
+        "android_client_info": {
+          "package_name": "com.example.bloc_login_register_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd3jwC6oDwqrbX7drIQvkUHiEA1ZKX9V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+name: user_repository
+description: "The repo that handles repository"
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.8
+  firebase_auth: ^6.4.0
+  cloud_firestore: ^6.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
